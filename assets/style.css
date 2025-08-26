@@ -1,0 +1,39 @@
+/* Background styling */
+[data-testid="stAppViewContainer"] {
+    background-image: url("https://images.unsplash.com/photo-1508385082359-f38ae991e8f3");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Transparent containers */
+[data-testid="stSidebar"], .stApp {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+/* Card-style boxes */
+.stForm {
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.15);
+}
+
+/* Title */
+h1, h2, h3 {
+    text-align: center;
+    color: #2E8B57;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Buttons */
+.stButton button {
+    border-radius: 12px;
+    background-color: #2E8B57;
+    color: white;
+    font-size: 16px;
+    padding: 8px 16px;
+    transition: 0.3s;
+}
+.stButton button:hover {
+    background-color: #246b44;
+}
