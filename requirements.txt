@@ -1,0 +1,9 @@
+# Core packages
+streamlit>=1.37.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+joblib>=1.3.0
+plotly>=5.20.0
+
+# Optional Streamlit extras for nicer UI components
+streamlit-extras>=0.4.0

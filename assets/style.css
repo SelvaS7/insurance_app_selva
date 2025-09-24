@@ -1,0 +1,88 @@
+/* ====== Global ====== */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ====== Sidebar ====== */
+section[data-testid="stSidebar"] {
+    background-color: #1e1e1e;
+    border-right: 1px solid #2a2a2a;
+}
+
+/* ====== Headings ====== */
+h1, h2, h3, h4, h5 {
+    color: #f5f5f5;
+    font-weight: 600;
+}
+
+/* ====== Buttons ====== */
+button[kind="primary"] {
+    background-color: #2196F3 !important;
+    color: white !important;
+    border-radius: 12px !important;
+    padding: 0.4rem 0.8rem !important;
+    font-weight: 600 !important;
+    border: none !important;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+    transition: background-color 0.3s ease;
+}
+button[kind="primary"]:hover {
+    background-color: #1976D2 !important;
+}
+
+button[kind="secondary"] {
+    background-color: #2c2c2c !important;
+    color: #e0e0e0 !important;
+    border-radius: 12px !important;
+    padding: 0.4rem 0.8rem !important;
+    border: none !important;
+}
+
+/* ====== Input Fields ====== */
+div[data-baseweb="input"] input {
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+    border-radius: 8px;
+}
+
+/* ====== Tables ====== */
+thead, tbody, tr, td, th {
+    border: none !important;
+}
+table {
+    background-color: #1f1f1f;
+    border-radius: 12px;
+    padding: 0.5rem;
+}
+tr:nth-child(even) {
+    background-color: #222222;
+}
+tr:hover {
+    background-color: #2a2a2a;
+}
+
+/* ====== Download Button ====== */
+.stDownloadButton > button {
+    background-color: #2196F3 !important;
+    color: white !important;
+    border-radius: 12px !important;
+    padding: 0.4rem 0.8rem !important;
+    font-weight: 600;
+    border: none !important;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+}
+.stDownloadButton > button:hover {
+    background-color: #1976D2 !important;
+}
+
+/* ====== Messages ====== */
+.stSuccess {
+    background-color: #2e7d32 !important;
+    color: #fff !important;
+}
+.stWarning {
+    background-color: #c62828 !important;
+    color: #fff !important;
+}
